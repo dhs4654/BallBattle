@@ -5,7 +5,6 @@ class Settings {
         if (this.root.AcWingOS) this.platform = "ACAPP";
         this.username = "";
         this.photo = "";
-
         this.$settings = $(`
 <div class="ac-game-settings">
     <div class="ac-game-settings-login">
@@ -34,7 +33,7 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app165.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
+            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
                 AcWing一键登录
@@ -72,7 +71,7 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app165.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
+            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
                 AcWing一键登录
@@ -149,7 +148,7 @@ class Settings {
 
     acwing_login() {
         $.ajax({
-            url: "https://app165.acapp.acwing.com.cn/settings/acwing/web/apply_code/",
+            url: "https://app2056.acapp.acwing.com.cn/settings/acwing/web/apply_code/",
             type: "GET",
             success: function(resp) {
                 if (resp.result === "success") {
@@ -166,7 +165,7 @@ class Settings {
         this.$login_error_message.empty();
 
         $.ajax({
-            url: "https://app165.acapp.acwing.com.cn/settings/login/",
+            url: "https://app2056.acapp.acwing.com.cn/settings/login/",
             type: "GET",
             data: {
                 username: username,
@@ -190,7 +189,7 @@ class Settings {
         this.$register_error_message.empty();
 
         $.ajax({
-            url: "https://app165.acapp.acwing.com.cn/settings/register/",
+            url: "https://app2056.acapp.acwing.com.cn/settings/register/",
             type: "GET",
             data: {
                 username: username,
@@ -212,7 +211,7 @@ class Settings {
             this.root.AcWingOS.api.window.close();
         } else {
             $.ajax({
-                url: "https://app165.acapp.acwing.com.cn/settings/logout/",
+                url: "https://app2056.acapp.acwing.com.cn/settings/logout/",
                 type: "GET",
                 success: function(resp) {
                     if (resp.result === "success") {
@@ -250,7 +249,7 @@ class Settings {
         let outer = this;
 
         $.ajax({
-            url: "https://app165.acapp.acwing.com.cn/settings/acwing/acapp/apply_code/",
+            url: "https://app2056.acapp.acwing.com.cn/settings/acwing/acapp/apply_code/",
             type: "GET",
             success: function(resp) {
                 if (resp.result === "success") {
@@ -264,7 +263,7 @@ class Settings {
         let outer = this;
 
         $.ajax({
-            url: "https://app165.acapp.acwing.com.cn/settings/getinfo/",
+            url: "https://app2056.acapp.acwing.com.cn/settings/getinfo/",
             type: "GET",
             data: {
                 platform: outer.platform,
