@@ -15,6 +15,14 @@ class AcGameMenu {
         <div class="ac-game-menu-field-item ac-game-menu-field-item-settings">
             退出
         </div>
+        <br>
+        <div class="ac-game-menu-field-item ac-game-menu-field-item-Q">
+            Q+左键射击
+        </div>
+        <br>
+         <div class="ac-game-menu-field-item ac-game-menu-field-item-F">
+            F+左键跳跃
+        </div>
     </div>
 </div>
 `);

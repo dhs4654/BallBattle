@@ -33,10 +33,8 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
-                AcWing一键登录
             </div>
         </div>
     </div>
@@ -71,10 +69,8 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
-                AcWing一键登录
             </div>
         </div>
     </div>

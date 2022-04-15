@@ -15,6 +15,14 @@ class AcGameMenu {
         <div class="ac-game-menu-field-item ac-game-menu-field-item-settings">
             退出
         </div>
+        <br>
+        <div class="ac-game-menu-field-item ac-game-menu-field-item-Q">
+            Q+左键射击
+        </div>
+        <br>
+         <div class="ac-game-menu-field-item ac-game-menu-field-item-F">
+            F+左键跳跃
+        </div>
     </div>
 </div>
 `);
@@ -1120,10 +1128,8 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
-                AcWing一键登录
             </div>
         </div>
     </div>
@@ -1158,10 +1164,8 @@ class Settings {
         </div>
         <br>
         <div class="ac-game-settings-acwing">
-            <img width="30" src="https://app2056.acapp.acwing.com.cn/static/image/settings/acwing_logo.png">
             <br>
             <div>
-                AcWing一键登录
             </div>
         </div>
     </div>
