@@ -68,11 +68,13 @@ class Player extends AcGameObject {
                 return true;
 
             const rect = outer.ctx.canvas.getBoundingClientRect();
+            var flag = true;
             if (e.which === 3) {
                 let tx = (e.clientX - rect.left) / outer.playground.scale;
                 let ty = (e.clientY - rect.top) / outer.playground.scale;
                 outer.move_to(tx, ty);
-
+                if(flag) document.getElementById('button1').click();
+                flag = false;
                 if (outer.playground.mode === "multi mode") {
                     outer.playground.mps.send_move_to(tx, ty);
                 }
